@@ -4,16 +4,35 @@
 
 An n-digit number that is the sum of the nth powers of its digits is called an n-narcissistic number. It is also known as an Armstrong number. For example,
 153 is an Armstrong number since ![](https://latex.codecogs.com/gif.latex?1^3&space;&plus;&space;5^3&space;&plus;&space;3^3&space;=&space;153).
+However, 25 is not an Armstrong number since ![](https://latex.codecogs.com/gif.latex?2^2&space;&plus;&space;5^2&space;\neq&space;25).
 
 ## Tasks
 
 #### Task 1
 
+Write a function in R called `is.armstrong()` that performs a logical test
+on if a positive integer is an Armstrong number. Your function should have
+two arguments.
+	
+- `x`: takes a vector of positive integers (need not by of type integer) 
+	up to 999
+- `values`: takes a logical vector of length one that toggles whether to return
+	a logical vector or a numeric vector
+
 #### Task 2
+
+Perform testing and validation of your function. Try the test cases provided
+and add others as you see fit. This may inspire you to go back and revise 
+`is.armstrong()`.
 
 #### Task 3
 
+Include a write-up that describes how you approached the problem and 
+constructed your solution. Some things to think about:
 
+- Is your function robust?
+- What are your function's weaknesses?
+- Why did you choose to use a specific control flow set of code?
 
 ## Essential details
 
@@ -58,9 +77,9 @@ Please review [Duke's Standards of Conduct](https://gradschool.duke.edu/academic
 
 **Topic**|**Points**
 ---------|----------:|
-Questions 1-6 | 72
-Communication of results| 4
-Code style and format | 4
-Named code chunks| 3
-Knit     | 3
-**Total**|**100**
+Task 1 | 16
+Task 2 |  4
+Task 3 |  6
+Code style and format | 3
+Named code chunks | 1
+**Total**|**30**
