@@ -2,6 +2,9 @@
 
 ## Introduction
 
+An n-digit number that is the sum of the nth powers of its digits is called an n-narcissistic number. It is also known as an Armstrong number. For example,
+153 is an Armstrong number since ![](https://latex.codecogs.com/gif.latex?1^3&space;&plus;&space;5^3&space;&plus;&space;3^3&space;=&space;153).
+
 ## Tasks
 
 #### Task 1
@@ -16,19 +19,27 @@
 
 #### Deadline and submission
 
-The deadline to submit Homework 1 is 11:59pm on Tuesday, September 10.
+The deadline to submit Homework 1 is 11:59pm on Tuesday, September 10. Only
+your final commit will be graded. Do not forget to push your work to your
+assigned repository.
 
 #### Help
 
-- Post your questions in the #hw1 channel on Slack. Explain your error in as much detail as possible or give a reproducible example that generates the same error. Make use of the code snippet option available in Slack.
+- Post your questions in the #hw1 channel on Slack. Explain your error in as
+  much detail as possible or give a reproducible example that generates the
+  same error. Make use of the code snippet option available in Slack.
 
 - Visit the instructor or TAs in office hours.
 
-- 
+- The instructor and TAs will not answer any questions within the first 24
+  hours of this homework being assigned, and they will not answer questions
+  within 6 hours of the deadline.
 
 #### Academic integrity
 
-This is an individual assignment. 
+This is an individual assignment. You may communicate with others in the
+course, but you must write-up your own solution. As a reminder, any
+code you use or find as inspiration must be cited.
 
 >Duke University is a community dedicated to scholarship, leadership, and 
 service and to the principles of honesty, fairness, respect, and accountability.
@@ -48,10 +59,8 @@ Please review [Duke's Standards of Conduct](https://gradschool.duke.edu/academic
 **Topic**|**Points**
 ---------|----------:|
 Questions 1-6 | 72
-`tidyverse` and `infer` code | 10
-R Markdown formatting| 4
 Communication of results| 4
-Code style | 4
+Code style and format | 4
 Named code chunks| 3
 Knit     | 3
 **Total**|**100**
