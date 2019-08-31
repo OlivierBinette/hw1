@@ -1,0 +1,46 @@
+---
+title: "Homework 1"
+author: '[Student Name]'
+date: "8/30/2019"
+output: 
+  html_document:
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+```
+
+## Task 1
+
+```{r}
+is.armstrong <- function() {
+  
+  
+  
+}
+```
+
+
+
+## Task 2
+
+#### Valid inputs
+
+```{r eval=FALSE}
+is.armstrong(x = 1)
+is.armstrong(x = 153)
+is.armstrong(x = 154)
+is.armstrong(x = c(153, 154))
+is.armstrong(x = 1:999)
+```
+
+#### Invalid inputs
+
+```{r eval=FALSE}
+is.armstrong(x = -2)
+is.armstrong(x = 1011)
+is.armstrong(x = c(pi, 6))
+is.armstrong(x = "a")
+```
+
