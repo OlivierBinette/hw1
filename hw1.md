@@ -22,6 +22,7 @@ is.armstrong <- function() {
 
 
 
+
 ## Task 2
 
 Be sure to remove chunk option `eval=FALSE` once you create function
