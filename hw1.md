@@ -7,13 +7,12 @@ output:
     keep_md: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, comment = NA)
-```
+
 
 ## Task 1
 
-```{r}
+
+```r
 is.armstrong <- function() {
   
   
@@ -30,7 +29,8 @@ Be sure to remove chunk option `eval=FALSE` once you create function
 
 #### Valid inputs
 
-```{r eval=FALSE}
+
+```r
 is.armstrong(x = 1)
 is.armstrong(x = 153)
 is.armstrong(x = 154)
@@ -40,7 +40,8 @@ is.armstrong(x = 1:999)
 
 #### Invalid inputs
 
-```{r eval=FALSE}
+
+```r
 is.armstrong(x = -2)
 is.armstrong(x = 1011)
 is.armstrong(x = c(pi, 6))
