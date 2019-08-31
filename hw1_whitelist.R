@@ -1,4 +1,5 @@
 allowed_files = c("hw1.Rmd",
+                  "hw1.md",
                   "README.md",
                   "wercker.yml",
                   "hw1.Rproj",
