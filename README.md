@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/2103a52fb7d80f749ea3ff1d8459812e/s/master "wercker status")](https://app.wercker.com/project/byKey/2103a52fb7d80f749ea3ff1d8459812e)
+
 # STA 523 :: Homework 1
 
 ## Introduction
