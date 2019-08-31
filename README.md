@@ -12,12 +12,13 @@ However, 25 is not an Armstrong number since ![](https://latex.codecogs.com/gif.
 
 Write a function in R called `is.armstrong()` that performs a logical test
 on if a positive integer is an Armstrong number. Your function should have
-two arguments.
+one argument.
 	
-- `x`: takes a vector of positive integers (need not by of type integer) 
-	up to 999
-- `values`: takes a logical vector of length one that toggles whether to return
-	a logical vector or a numeric vector
+- `x`: takes an atomic vector of positive integers 
+	(need not by of type integer) up to 999
+
+The function should return a logical atomic vector that is the same length as 
+the vector input in `x`. Try and make your function robust as possible.
 
 #### Task 2
 
@@ -32,13 +33,13 @@ constructed your solution. Some things to think about:
 
 - Is your function robust?
 - What are your function's weaknesses?
-- Why did you choose to use a specific control flow set of code?
+- Why did you choose to use a specific set of control flow code?
 
 ## Essential details
 
 #### Deadline and submission
 
-The deadline to submit Homework 1 is 11:59pm on Tuesday, September 10. Only
+**The deadline to submit Homework 1 is 11:59pm on Tuesday, September 10.** Only
 your final commit will be graded. Do not forget to push your work to your
 assigned repository.
 
@@ -77,9 +78,12 @@ Please review [Duke's Standards of Conduct](https://gradschool.duke.edu/academic
 
 **Topic**|**Points**
 ---------|----------:|
-Task 1 | 16
-Task 2 |  4
-Task 3 |  6
+Task 1 | 15
+Task 2 |  3
+Task 3 |  5
+3 commits| 3
 Code style and format | 3
 Named code chunks | 1
 **Total**|**30**
+
+- *Documents that fail to knit will receive a 0*.
