@@ -1,4 +1,4 @@
-[![wercker status](https://app.wercker.com/status/ffa0efd09e49fa4b00b5167721e72124/s/ "wercker status")](https://app.wercker.com/project/byKey/ffa0efd09e49fa4b00b5167721e72124)
+[![wercker status](https://app.wercker.com/status/ffa0efd09e49fa4b00b5167721e72124/s/master "wercker status")](https://app.wercker.com/project/byKey/ffa0efd09e49fa4b00b5167721e72124)
 
 # STA 523 :: Homework 1
 
