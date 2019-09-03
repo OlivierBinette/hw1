@@ -1,7 +1,7 @@
 ---
 title: "Homework 1"
 author: '[Student Name]'
-date: "8/30/2019"
+date: "9/03/2019"
 output: 
   html_document:
     keep_md: yes
@@ -24,8 +24,11 @@ is.armstrong <- function() {
 
 ## Task 2
 
-Be sure to remove chunk option `eval=FALSE` once you create function
-`is.armstrong()`.
+<i>
+Be sure to remove chunk option `eval=FALSE` for the valid inputs code chunk
+once you create function `is.armstrong()`. Do not include this italicized
+text in your final submission.
+</i>
 
 #### Valid inputs
 
