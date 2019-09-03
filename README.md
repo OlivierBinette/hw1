@@ -21,6 +21,7 @@ Arguments:
 
 The function should return a logical atomic vector that is the same length as 
 the atomic vector input in `x`. Make your function as robust as possible.
+You may only use functions and operators available in base R.
 
 #### Task 2
 
@@ -43,13 +44,13 @@ constructed your solution. Some things to think about:
 
 **The deadline to submit Homework 1 is 11:59pm on Tuesday, September 10.** Only
 your final commit will be graded. Do not forget to push your work to your
-assigned repository.
+assigned repository on GitHub.
 
 #### Help
 
-- Post your questions in the #hw1 channel on Slack. Explain your error in as
-  much detail as possible or give a reproducible example that generates the
-  same error. Make use of the code snippet option available in Slack.
+- Post your questions in the #hw1 channel on Slack. Explain your error / problem
+  in as much detail as possible or give a reproducible example that generates 
+  the same error. Make use of the code snippet option available in Slack.
 
 - Visit the instructor or TAs in office hours.
 
